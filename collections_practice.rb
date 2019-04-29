@@ -95,5 +95,5 @@ def organize_schools(schools)
     org_schools[location] || = [ ]
     org_schools[location] << name
   end
-  org_schoolas
+  org_schools
 end  
