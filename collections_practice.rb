@@ -92,7 +92,7 @@ def organize_schools(schools)
   schools.each do |name, location_hash|
     location = location_hash[:location]
     
-    org_schools[location] || - []
+    org_schools[location] ||=[]
     org_schools[location] << name
   end
   org_schools
